@@ -111,7 +111,7 @@ public:
 // Main function to test HashTable
 int main() {
     HashTable ht(10);
-    std::string filepath = "path_to_your_csv_file.csv"; // Change to your CSV file path
+    std::string filepath = "cleaned_quizresult.csv";
     std::ifstream file(filepath);
     std::string line, name, breakfast;
 
